@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Job Application Form</title>
+  </head>
+  <body>
+    <center><h1>Job Application Form</h1></center>
+    <form action="response.html" autocomplete="" target="_blank">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <table>
+          <tr>
+            <td><label for="">First Name* </label></td>
+            <td><input type="text" required /></td>
+          </tr>
+          <tr>
+            <td><label for="">Last Name* </label></td>
+            <td><input type="text" required /></td>
+          </tr>
+          <tr>
+            <td><label for="">Date of Birth</label></td>
+            <td><input type="date" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Gender</label></td>
+            <td>
+              <input type="radio" name="Gender" id="" /> Male
+              <input type="radio" name="Gender" id="" /> Female
+              <input type="radio" name="Gender" id="" /> Other
+            </td>
+          </tr>
+          <tr>
+            <td><label for="">Profile Picture* </label></td>
+            <td><input type="file" required /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <table>
+          <tr>
+            <td><label for=""> Email*</label></td>
+            <td><input type="email" required name="" id="" /></td>
+          </tr>
+          <tr>
+            <td><label for=""> Phone Number*</label></td>
+            <td><input type="tel" required placeholder="10-digit number" /></td>
+          </tr>
+          <tr>
+            <td><label for=""> Address</label></td>
+            <td><textarea name="" id="" rows="" cols="25"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for=""> Country </label></td>
+            <td>
+              <select name="" id="">
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">Germany</option>
+                <option value="">France</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Education Background</legend>
+        <table>
+          <tr>
+            <td><label for="">Highest Qualification</label></td>
+            <td>
+              <select name="" id="">
+                <option value="">Graduate</option>
+                <option value="">Post Graduate</option>
+                <option value="">PhD</option>
+                <option value="">Others</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for=""> Specialization</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for=""> Year of Graduation</label></td>
+            <td><input type="number" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Job Preferences</legend>
+        <table>
+          <tr>
+            <td><label for=""> Preferred Role</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for=""> Expected Salary</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="">Preferred Locations</label></td>
+            <td>
+              <input type="checkbox" name="" id="" /> Bangalore
+              <input type="checkbox" name="" id="" /> Delhi
+              <input type="checkbox" name="" id="" /> Remote
+              <input type="checkbox" name="" id="" /> Pune
+            </td>
+          </tr>
+          <tr>
+            <td><label for=""> Willing to Relocate?</label></td>
+            <td>
+              <input type="checkbox" name="" id="" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Create Account</legend>
+        <table>
+          <tr>
+            <td><label for="">Password*</label></td>
+            <td>
+              <input
+                type="password"
+                required
+                placeholder="Min 6 characters"
+                name=""
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for=""> Confirm Password*</label></td>
+            <td><input type="password" required name="" id="" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Resume</legend>
+        <table>
+          <tr>
+            <td><label for=""> Upload Resume(PDF only)*</label></td>
+            <td><input type="file" required /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Agreement</legend>
+        <table>
+          <tr>
+            <td>
+              <input type="checkbox" required />I agree to the terms and
+              conditions*
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="Submit Application" />
+              <input type="Reset" value="Reset Form" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
